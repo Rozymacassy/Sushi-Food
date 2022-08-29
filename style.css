@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.nav-bar{
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.nav-bar a{
+    text-decoration: none; 
+    color: hotpink;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+
+    
+}
+
+.nav-bar a:hover{
+    background-color: transparent;
+    color: grey;
+    border: 1px solid hotpink;
+}
+
+.bg-img{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+
+}
+.bg-img img{
+    width: 100%;
+    height: 100vh;
+}
+
+.wlc{
+  position:absolute ;
+  width: 50%;
+  top: 150px;
+  left:376px;
+  color: white;
+  font-weight: lighter;
+}
+
+.txt{
+    position: absolute;
+    width: 592px;
+    height: 62px;
+    left: 280px;
+    top: 230px;
+    font-style: normal;
+    font-weight:lighter;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #ffffffb0;
+    
+}
+
+.men{
+position: absolute;
+width: 90px;
+height: 45px;
+left: 35em;
+top: 23em;
+color:black;
+background: #FFFFFF;
+border: none;
+border-radius: 2px;
+
+
+}
+
+.men a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+
+.car{
+    position: absolute;
+    width: 90px;
+    height: 45px;
+    left: 43em;
+    top: 23em;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+
+}
+
+.car a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

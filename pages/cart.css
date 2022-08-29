@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.menu-parent{
+    position: relative;
+    display: flex;
+    margin: 1em;
+    width: 95%;
+    height: 0vh;
+}
+
+.nav-bar{
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.nav-bar a{
+    text-decoration: none; 
+    color: hotpink;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+
+    
+}
+
+.nav-bar a:hover{
+    background-color: transparent;
+    color: grey;
+    border: 1px solid hotpink;
+}
+
+.side-bar{
+    position: absolute;
+    height: 115vh;
+    width: 80px;
+    background-color: black;
+    border-radius: 20px;
+}
+.side-bar img:hover{
+background-color: rgb(235, 192, 149);
+padding: 10px;
+margin: 10px;
+}
+
+.side-bar .rest{
+background-color: beige;
+}
+
+.side-bar img{
+    margin: 20px;
+
+}
+
+.cart-parent{
+    display: flex;
+
+
+}
+.left{
+ float: right;
+    display: flex;
+    
+}
+
+.cart-price{
+    width: 500px;
+background-color: bisque;
+margin: 30px;
+}
+.cart-price img{
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 100px;
+    float: left;
+}
+
+.check-out{
+margin: 30px;
+justify-content: space-between;
+margin-left: 0px;
+}
+.subtotal{
+    background-color: bisque;
+    padding:2em ;
+    width: 300px;
+    height: 30vh;
+
+}
+
+
+.sub{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sub-txt{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+}
+.sub-txt span{
+padding: 20px;
+}
+.con-ord{
+    color: #ffffff;
+    margin:2em;
+    background-color: black;
+    padding: 10px 4em ;  
+}
+
+
+.promo{
+    width: 343px;
+    height: 40vh;
+padding: 10px;
+border: 1px solid bisque;
+
+}
+
+.code{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+input{
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid bisque;
+}
+.apply {
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    padding: 5px 15px;
+    margin: 15px;
+}

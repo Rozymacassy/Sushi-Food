@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+}
+
+.menu-parent{
+    position: relative;
+    display: flex;
+    margin: 1em;
+    width: 95%;
+    height: 0vh;
+}
+
+.nav-bar{
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.nav-bar a{
+    text-decoration: none; 
+    color: hotpink;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+
+    
+}
+
+.nav-bar a:hover{
+    background-color: transparent;
+    color: grey;
+    border: 1px solid hotpink;
+}
+
+h1{
+    position: absolute;
+    color:grey;
+    left: 130px;
+    top: 20px;
+    font-weight: lighter;
+    font-size: 40px;
+    border-bottom: 1px solid hotpink;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.side-bar{
+    position: absolute;
+    height: 115vh;
+    width: 80px;
+    background-color: black;
+    border-radius: 20px;
+}
+.side-bar img:hover{
+background-color: rgb(235, 192, 149);
+padding: 10px;
+margin: 10px;
+}
+
+.side-bar .rest{
+background-color: beige;
+}
+
+.side-bar img{
+    margin: 20px;
+
+}
+
+.food{
+position: absolute;
+display: flex;
+flex-flow: wrap;
+justify-content: space-around;
+left: 100px;
+top: 78px;
+
+
+}
+
+.food img{
+    width: 200px;
+    height: 200px;
+  
+  
+}
+
+button{
+    position: absolute;
+    background-color: #000000;
+    padding: 10px ;
+    margin: 10px;
+    left: 509px;
+    top: 550px;
+}
+
+button a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
