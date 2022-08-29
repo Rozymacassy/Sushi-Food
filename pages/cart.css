@@ -63,21 +63,20 @@ background-color: beige;
 }
 .left{
  float: right;
-    display: flex;
+ display: flex;
     
 }
 
 .cart-price{
-    width: 500px;
-background-color: bisque;
-margin: 30px;
+  width: 500px;
+  background-color: bisque;
+  margin: 30px;
 }
 .cart-price img{
     height: 80px;
     width: 80px;
     padding: 20px;
     border-radius: 100px;
-    float: left;
 }
 
 .check-out{

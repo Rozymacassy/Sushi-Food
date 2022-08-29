@@ -8,8 +8,8 @@
     position: relative;
     display: flex;
     margin: 1em;
-    width: 95%;
-    height: 0vh;
+    width: 80%;
+    height: 50vh;
 }
 
 .nav-bar{
@@ -22,10 +22,9 @@
     color: hotpink;
     border-radius: 5px;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
     background-color: black;
 
-    
 }
 
 .nav-bar a:hover{
@@ -54,7 +53,7 @@ p{
 }
 .side-bar{
     position: absolute;
-    height: 115vh;
+    height: 80vh;
     width: 80px;
     background-color: black;
     border-radius: 20px;
